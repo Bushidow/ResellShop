@@ -1,0 +1,258 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Russo+One&display=swap);
+
+* {
+    font-family: 'Russo One';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/*  tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../image/sneakers-addict-definition.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+/* page de bienvenue(landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size: 60px;
+    background-color: red;
+    width: 1200px;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 300px;
+    background-color: red;
+    font-size: 30px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: red;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    color: white;
+    font-weight: 200;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+}
+    
+
+.delivery-icon {
+    font-size: 50px;
+    
+     
+}
+
+/*  Nos Articles */
+
+.section-title {
+    font-size: 50px;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items{
+    margin: 50px;
+}
+
+.best-plants {
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 500px;
+    height: 500px;
+    flex: 1;
+}
+
+.no-grid {
+    min-width: 500px;
+    height: 500px;
+    flex: 1;
+}
+
+.plant1 {
+    background-image: url(/image/parra-x-nike-sb-dunk-low-abstract-art-DH7695-600.jpg);
+}
+
+.plant2 {
+    background-image: url(/image/jordan\ 2.jpg);
+}
+
+.plant-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 75%;
+    background-color: whitesmoke;
+    padding: 5px 20px;
+}
+
+.plant-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-price {
+    font-weight: 800;
+    line-height: 3PX;
+    font-size: 20px;
+}
+
+.plant-taille {
+    font-size: 20px;
+}   
+
+
+/* Nos vetements */
+
+.section-title {
+    font-size: 50px;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.best-items{
+    margin: 50px;
+}
+
+.bests-plants {
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plants-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 500px;
+    height: 500px;
+    flex: 1;
+}
+
+.no-grid {
+    min-width: 500px;
+    height: 500px;
+    flex: 1;
+}
+
+.plant11 {
+    background-image: url(/image/addidas\ short.jpeg);
+}
+
+.plant22 {
+    background-image: url(/image/sweat\ nike.jpeg);
+}
+
+.plant-detail {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 75%;
+    background-color: whitesmoke;
+    padding: 5px 20px;
+}
+
+.plant-names{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-prices {
+    font-weight: 800;
+    line-height: 3PX;
+    font-size: 20px;
+}
+
+.plant-tailles {
+    font-size: 20px;
+}   
+
+/* pied de page */
+
+.footer {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
